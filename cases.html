@@ -8,8 +8,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>北京众合音元文化传媒有限公司</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="description" content="北京众合音元文化传媒有限公司官网" />
+	<meta name="keywords" content="众合音元,舞台演出,灯光音响，租赁" />
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -132,14 +132,6 @@
 							<img src="images/filmPress.jpg" width="360" height="270" alt="" />
 						</a>
 						<h3>电影发布会</h3>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="services-grid">
-						<a class="single_2" rel="single_2" href="images/IMG_0584.jpg">
-							<img src="images/IMG_0584.jpg" width="360" height="270" alt="" />
-						</a>
-						<h3>SELF 格致论道</h3>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -334,16 +326,15 @@
             });
 
             $(".single_2").fancybox({
-                openEffect: 'elastic',
-                closeEffect: 'elastic',
-                hideOnContentClick:'true',
+                transitionIn: 'elastic',
+				transitionOut: 'elastic',
                 centerOnScroll:'true',
-                Centered:'true',
-                helpers: {
-                    title: {
-                        type: 'inside'
-                    }
-                }
+                hideOnContentClick: 'true',
+                overlayOpacity: 0.9,
+                speedIn: 1,
+				speedOut: 1,
+                changeSpeed: 1,
+                changeFade: 0
             });
 
             $("#single_3").fancybox({
